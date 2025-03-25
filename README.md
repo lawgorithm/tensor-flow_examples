@@ -30,7 +30,11 @@
       * More skip connections in a "U-shaped" pattern. U-Net is a very popular choice for  semantic segmentation tasks. U-Net has skip connections to retain information that gets lost during encoding. Skip connections send information to every upsampling layer in the decoder from the corresponding downsampling layer in the encoder.
   * Defining datasets
     * tf.keras.preprocessing.image_dataset_from_directory()
+      * Generates a tf.data.Dataset from image files organized in a directory structure
       * Transfer_learning_with_MobileNet_v1.ipynb
+    * tf.keras.preprocessing.image.load_img()
+      * Loads a single image from a specified file path, returning a PIL object. Typically used as building block in a custom preprocessing pipeline or when you need to work with images one at a time.
+      * Face_Recognition.ipynb
   * Data augmentation
     * Transfer_learning_with_MobileNet_v1.ipynb
   * Transfer learning
@@ -38,6 +42,8 @@
       * Transfer_learning_with_MobileNet_v1.ipynb
     * Freezing layers/models: model.trainable = False and/or layer.trainable = False
       * Transfer_learning_with_MobileNet_v1.ipynb
+    * Loading face verification model using model_from_json() with weights in .h5 file
+      * Face_Recognition.ipynb
 * customizing model.compile()
   * Learning rate: optimizer=tf.keras.optimizers.Adam(lr=base_learning_rate)
     * Transfer_learning_with_MobileNet_v1.ipynb
@@ -49,6 +55,10 @@
 * Masks
   * tf.boolean_mask()
     * Autonomous_driving_application_Car_detection.ipynb
+* Loss functions
+  * Custom loss functions
+    * triplet_loss(y_true, y_pred, alpha = 0.2)
+      * Face_Recognition.ipynb
 
 
 
