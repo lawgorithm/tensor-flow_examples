@@ -41,5 +41,10 @@
   * Specify a validation set: validation_data=validation_dataset
   * Specify the number of epochs: epochs=K
   * Save history: history = model.fit(...)
+* Masks
+  * tf.boolean_mask()
+    * Autonomous_driving_application_Car_detection.ipynb
+
+
 
 
