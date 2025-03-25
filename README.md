@@ -44,6 +44,9 @@
       * Transfer_learning_with_MobileNet_v1.ipynb
     * Loading face verification model using model_from_json() with weights in .h5 file
       * Face_Recognition.ipynb
+    * tf.keras.applications.VGG19()
+      * Image classification, feature extraction for computer vision tasks, etc
+      * Art_Generation_with_Neural_Style_Transfer.ipynb
 * customizing model.compile()
   * Learning rate: optimizer=tf.keras.optimizers.Adam(lr=base_learning_rate)
     * Transfer_learning_with_MobileNet_v1.ipynb
@@ -59,6 +62,9 @@
   * Custom loss functions
     * triplet_loss(y_true, y_pred, alpha = 0.2)
       * Face_Recognition.ipynb
+* with tf.GradientTape() as tape:
+  * Art_Generation_with_Neural_Style_Transfer.ipynb
+
 
 
 
