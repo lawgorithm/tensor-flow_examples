@@ -47,6 +47,14 @@
     * tf.keras.applications.VGG19()
       * Image classification, feature extraction for computer vision tasks, etc
       * Art_Generation_with_Neural_Style_Transfer.ipynb
+    * Working with pre-trained word embeddings
+      * Operations_on_word_vectors_v2a.ipynb
+
+* LSTM
+  * Sequential API models with tensorflow.keras.layers pre-implemented layers
+    * TODO
+  * Functional API models
+    * Improvise_a_Jazz_Solo_with_an_LSTM_Network_v4.ipynb
 * customizing model.compile()
   * Learning rate: optimizer=tf.keras.optimizers.Adam(lr=base_learning_rate)
     * Transfer_learning_with_MobileNet_v1.ipynb
