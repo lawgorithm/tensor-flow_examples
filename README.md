@@ -10,8 +10,11 @@
 * tf.Dataset
   * tf.data.Dataset.from_tensor_slices()
     * Tensorflow_introduction.ipynb
+    * Image_segmentation_Unet_v2.ipynb
   * tf.data.Dataset.zip()
     * Tensorflow_introduction.ipynb
+  * dataset.map()
+    * Image_segmentation_Unet_v2.ipynb
   * Looking at training examples from the dataset
     * for _ in train_dataset.take(1):
       * Transfer_learning_with_MobileNet_v1.ipynb
@@ -23,6 +26,8 @@
   * Functional API models
     * Residual_Networks_2022_09_17_15_50_38.ipynb
       * Functional API allows for skip connections in very deep CNNs
+    * Image_segmentation_Unet_v2.ipynb
+      * More skip connections in a "U-shaped" pattern. U-Net is a very popular choice for  semantic segmentation tasks. U-Net has skip connections to retain information that gets lost during encoding. Skip connections send information to every upsampling layer in the decoder from the corresponding downsampling layer in the encoder.
   * Defining datasets
     * tf.keras.preprocessing.image_dataset_from_directory()
       * Transfer_learning_with_MobileNet_v1.ipynb
