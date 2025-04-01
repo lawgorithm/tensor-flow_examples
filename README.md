@@ -79,6 +79,8 @@
   * Normal loss functions
     * categorical_crossentropy
       * Emoji_v3a.ipynb
+    * binary_crossentropy
+      * Trigger_word_detection_v2a.ipynb
   * Custom loss functions
     * triplet_loss(y_true, y_pred, alpha = 0.2)
       * Face_Recognition.ipynb
