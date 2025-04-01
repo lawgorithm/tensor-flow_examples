@@ -59,6 +59,9 @@
   * Functional API models
     * Improvise_a_Jazz_Solo_with_an_LSTM_Network_v4.ipynb
     * Emoji_v3a.ipynb
+    * Neural_machine_translation_with_attention_v4a.ipynb
+* Attention mechanisms
+  * Neural_machine_translation_with_attention_v4a.ipynb
 * customizing model.compile()
   * Learning rate: optimizer=tf.keras.optimizers.Adam(lr=base_learning_rate)
     * Transfer_learning_with_MobileNet_v1.ipynb
