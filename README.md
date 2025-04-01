@@ -54,6 +54,8 @@
     * Emoji_v3a.ipynb
   * Defining an Embedding() layer with pre-trained embeddings
     * Emoji_v3a.ipynb
+  * Pretrained transformer model and transformer tokenizer, TFDistilBertForTokenClassification.from_pretrained()
+    * Transformer_application_Named_Entity_Recognition.ipynb
 
 * LSTM
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
@@ -64,6 +66,9 @@
     * Neural_machine_translation_with_attention_v4a.ipynb
 * Attention mechanisms
   * Neural_machine_translation_with_attention_v4a.ipynb
+* Transformers
+  * C5_W4_A1_Transformer_Subclass_v1.ipynb
+  * Transformer_application_Named_Entity_Recognition.ipynb
 * customizing model.compile()
   * Learning rate: optimizer=tf.keras.optimizers.Adam(lr=base_learning_rate)
     * Transfer_learning_with_MobileNet_v1.ipynb
