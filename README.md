@@ -20,6 +20,10 @@
       * Transfer_learning_with_MobileNet_v1.ipynb
     * next(iter(train_dataset))
       * Transfer_learning_with_MobileNet_v1.ipynb
+     
+* MLP
+  * Sequential API
+    * C1_W2_Lab_1_beyond_hello_world.ipynb
 * CNN
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
     * Convolution_model_Application.ipynb
@@ -89,13 +93,17 @@
       * Emoji_v3a.ipynb
     * binary_crossentropy
       * Trigger_word_detection_v2a.ipynb
+    * sparse_categorical_cross_entropy
+      * C1_W2_Lab_1_beyond_hello_world.ipynb
   * Custom loss functions
     * triplet_loss(y_true, y_pred, alpha = 0.2)
       * Face_Recognition.ipynb
 * with tf.GradientTape() as tape:
   * Art_Generation_with_Neural_Style_Transfer.ipynb
   * QA_dataset.ipynb
-
+* Callbacks
+  * Stop training when loss reaches a target
+    * C1_W2_Lab_1_beyond_hello_world.ipynb
 
 
 
