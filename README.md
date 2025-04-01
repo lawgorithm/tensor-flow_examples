@@ -52,10 +52,13 @@
   * Working with pre-trained word embeddings
     * Operations_on_word_vectors_v2a.ipynb
     * Emoji_v3a.ipynb
+    * Embedding_plus_Positional_encoding.ipynb
   * Defining an Embedding() layer with pre-trained embeddings
     * Emoji_v3a.ipynb
   * Pretrained transformer model and transformer tokenizer, TFDistilBertForTokenClassification.from_pretrained()
     * Transformer_application_Named_Entity_Recognition.ipynb
+  * TFDistilBertForQuestionAnswering.from_pretrained()
+    * QA_dataset.ipynb
 
 * LSTM
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
@@ -91,6 +94,7 @@
       * Face_Recognition.ipynb
 * with tf.GradientTape() as tape:
   * Art_Generation_with_Neural_Style_Transfer.ipynb
+  * QA_dataset.ipynb
 
 
 
