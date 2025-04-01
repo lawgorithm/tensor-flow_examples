@@ -38,20 +38,20 @@
   * Data augmentation
     * Transfer_learning_with_MobileNet_v1.ipynb
 * Transfer learning
-    * tf.keras.applications.MobileNetV2()
-      * Transfer_learning_with_MobileNet_v1.ipynb
-    * Freezing layers/models: model.trainable = False and/or layer.trainable = False
-      * Transfer_learning_with_MobileNet_v1.ipynb
-    * Loading face verification model using model_from_json() with weights in .h5 file
-      * Face_Recognition.ipynb
-    * tf.keras.applications.VGG19()
-      * Image classification, feature extraction for computer vision tasks, etc
-      * Art_Generation_with_Neural_Style_Transfer.ipynb
-    * Working with pre-trained word embeddings
-      * Operations_on_word_vectors_v2a.ipynb
-      * Emoji_v3a.ipynb
-    * Defining an Embedding() layer with pre-trained embeddings
-      * Emoji_v3a.ipynb
+  * tf.keras.applications.MobileNetV2()
+    * Transfer_learning_with_MobileNet_v1.ipynb
+  * Freezing layers/models: model.trainable = False and/or layer.trainable = False
+    * Transfer_learning_with_MobileNet_v1.ipynb
+  * Loading face verification model using model_from_json() with weights in .h5 file
+    * Face_Recognition.ipynb
+  * tf.keras.applications.VGG19()
+    * Image classification, feature extraction for computer vision tasks, etc
+    * Art_Generation_with_Neural_Style_Transfer.ipynb
+  * Working with pre-trained word embeddings
+    * Operations_on_word_vectors_v2a.ipynb
+    * Emoji_v3a.ipynb
+  * Defining an Embedding() layer with pre-trained embeddings
+    * Emoji_v3a.ipynb
 
 * LSTM
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
