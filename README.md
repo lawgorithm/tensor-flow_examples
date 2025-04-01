@@ -104,6 +104,8 @@
 * Callbacks
   * Stop training when loss reaches a target
     * C1_W2_Lab_1_beyond_hello_world.ipynb
+    * C1_W2_Lab_2_callbacks.ipynb
+    * C1W2_Assignment.ipynb
 
 
 
