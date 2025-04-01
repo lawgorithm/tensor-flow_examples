@@ -49,12 +49,16 @@
       * Art_Generation_with_Neural_Style_Transfer.ipynb
     * Working with pre-trained word embeddings
       * Operations_on_word_vectors_v2a.ipynb
+      * Emoji_v3a.ipynb
+    * Defining an Embedding() layer with pre-trained embeddings
+      * Emoji_v3a.ipynb
 
 * LSTM
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
     * TODO
   * Functional API models
     * Improvise_a_Jazz_Solo_with_an_LSTM_Network_v4.ipynb
+    * Emoji_v3a.ipynb
 * customizing model.compile()
   * Learning rate: optimizer=tf.keras.optimizers.Adam(lr=base_learning_rate)
     * Transfer_learning_with_MobileNet_v1.ipynb
@@ -67,6 +71,9 @@
   * tf.boolean_mask()
     * Autonomous_driving_application_Car_detection.ipynb
 * Loss functions
+  * Normal loss functions
+    * categorical_crossentropy
+      * Emoji_v3a.ipynb
   * Custom loss functions
     * triplet_loss(y_true, y_pred, alpha = 0.2)
       * Face_Recognition.ipynb
