@@ -37,6 +37,8 @@
       * Face_Recognition.ipynb
   * Data augmentation
     * Transfer_learning_with_MobileNet_v1.ipynb
+  * Conv1D()
+    * Trigger_word_detection_v2a.ipynb
 * Transfer learning
   * tf.keras.applications.MobileNetV2()
     * Transfer_learning_with_MobileNet_v1.ipynb
