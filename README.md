@@ -52,12 +52,16 @@
   * Visualizing convolutions
     * C1_W3_Lab_1_improving_accuracy_using_convolutions.ipynb
   * ImageDataGenerator()
-    * Flow images from a directory in batches using a ImageDataGenerator(). Can be used to rescale, compress, etc images on the fly as they flow during training.
+    * Flow images from a directory in batches using a ImageDataGenerator(). Can be used to rescale, compress, do data augmentation, etc on the fly as they flow during training.
     * C1_W4_Lab_1_image_generator_with_validation.ipynb
     * C1_W4_Lab_3_compacted_images.ipynb
     * C1W4_Assignment.ipynb
     * C2_W1_Lab_1_cats_vs_dogs.ipynb
     * C2W1_Assignment.ipynb
+    * For data augmentation:
+      * C2_W2_Lab_1_cats_v_dogs_augmentation.ipynb
+      * C2_W2_Lab_2_horses_v_humans_augmentation.ipynb
+      * C2W2_Assignment.ipynb
 
 * Transfer learning
   * tf.keras.applications.MobileNetV2()
