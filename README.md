@@ -72,6 +72,7 @@
     * Face_Recognition.ipynb
   * Fine-tuning a pre-trained tensorflow.keras.applications.inception_v3 model for CNN. Also, freeze some of the layers.
     * C2_W3_Lab_1_transfer_learning.ipynb
+    * C2W3_Assignment.ipynb
   * tf.keras.applications.VGG19()
     * Image classification, feature extraction for computer vision tasks, etc
     * Art_Generation_with_Neural_Style_Transfer.ipynb
