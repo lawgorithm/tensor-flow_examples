@@ -24,6 +24,9 @@
 * __MLP__
   * Sequential API
     * C1_W2_Lab_1_beyond_hello_world.ipynb
+    * With embeddings layer:
+      * C3_W2_Lab_1_imdb.ipynb
+      * C3W2_Assignment.ipynb
 
 * __CNN__
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
@@ -51,7 +54,9 @@
   * Data augmentation
     * Transfer_learning_with_MobileNet_v1.ipynb
   * Conv1D()
+    * Can be used for sequential data, where the convolutions happen over a single dimension (as oppposed to image data where you use 2D convolutions). Often combined with GlobalMaxPooling1D() layers to reduce dimensionality before passing to a Dense layer
     * Trigger_word_detection_v2a.ipynb
+    * C3_W3_Lab_3_Conv1D.ipynb
   * Visualizing convolutions
     * C1_W3_Lab_1_improving_accuracy_using_convolutions.ipynb
   * ImageDataGenerator()
@@ -92,19 +97,27 @@
   * TFDistilBertForQuestionAnswering.from_pretrained()
     * QA_dataset.ipynb
 
-* __NLP Preprocessing__
+* __NLP Preprocessing and other tools__
   * Tokenizing with tensorflow.keras.preprocessing.text.Tokenizer()
     * C3_W1_Lab_1_tokenize_basic.ipynb
     * C3_W1_Lab_3_sarcasm.ipynb
     * C3W1_Assignment.ipynb
+    * C3W2_Assignment.ipynb
   * pad_sequences()
     * C3_W1_Lab_2_sequences_basic.ipynb
     * C3_W1_Lab_3_sarcasm.ipynb
     * C3W1_Assignment.ipynb
+    * C3W2_Assignment.ipynb
+  * tf.keras.layers.Embedding()
+    * C3_W2_Lab_1_imdb.ipynb
+    * C3_W2_Lab_2_sarcasm_classifier.ipynb
+    * C3_W2_Lab_3_imdb_subwords.ipynb
+    * C3W2_Assignment.ipynb
 
 * __LSTM__
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
-    * TODO
+    * C3_W3_Lab_1_single_layer_LSTM.ipynb
+    * C3_W3_Lab_2_multiple_layer_LSTM.ipynb
   * Functional API models
     * Improvise_a_Jazz_Solo_with_an_LSTM_Network_v4.ipynb
     * Emoji_v3a.ipynb
@@ -127,7 +140,7 @@
   * Specify the number of epochs: epochs=K
   * Save history: history = model.fit(...)
 
-* __Masks__
+* __masks__
   * tf.boolean_mask()
     * Autonomous_driving_application_Car_detection.ipynb
 
