@@ -29,6 +29,7 @@
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
     * Convolution_model_Application.ipynb
     * C1_W3_Lab_1_improving_accuracy_using_convolutions.ipynb
+    * C1W3_Assignment.ipynb
   * Functional API models
     * Residual_Networks_2022_09_17_15_50_38.ipynb
       * Functional API allows for skip connections in very deep CNNs
@@ -47,6 +48,10 @@
     * Trigger_word_detection_v2a.ipynb
   * Visualizing convolutions
     * C1_W3_Lab_1_improving_accuracy_using_convolutions.ipynb
+  * ImageDataGenerator()
+    * Flow images from a directory in batches using a ImageDataGenerator(). Can be used to rescale, compress, etc images on the fly as they flow during training.
+    * C1_W4_Lab_1_image_generator_with_validation.ipynb
+    * C1_W4_Lab_3_compacted_images.ipynb
 
 * Transfer learning
   * tf.keras.applications.MobileNetV2()
@@ -119,6 +124,7 @@
     * C1_W2_Lab_1_beyond_hello_world.ipynb
     * C1_W2_Lab_2_callbacks.ipynb
     * C1W2_Assignment.ipynb
+    * C1W3_Assignment.ipynb
 
 
 
