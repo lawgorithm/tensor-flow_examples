@@ -70,6 +70,8 @@
     * Transfer_learning_with_MobileNet_v1.ipynb
   * Loading face verification model using model_from_json() with weights in .h5 file
     * Face_Recognition.ipynb
+  * Fine-tuning a pre-trained tensorflow.keras.applications.inception_v3 model for CNN. Also, freeze some of the layers.
+    * C2_W3_Lab_1_transfer_learning.ipynb
   * tf.keras.applications.VGG19()
     * Image classification, feature extraction for computer vision tasks, etc
     * Art_Generation_with_Neural_Style_Transfer.ipynb
