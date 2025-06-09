@@ -35,6 +35,7 @@
     * C2W1_Assignment.ipynb
     * C2_W4_Lab_1_multi_class_classifier.ipynb
       * Multiclass classification
+    * C2W4_Assignment.ipynb
   * Functional API models
     * Residual_Networks_2022_09_17_15_50_38.ipynb
       * Functional API allows for skip connections in very deep CNNs
@@ -64,6 +65,8 @@
       * C2_W2_Lab_1_cats_v_dogs_augmentation.ipynb
       * C2_W2_Lab_2_horses_v_humans_augmentation.ipynb
       * C2W2_Assignment.ipynb
+    * C2_W4_Lab_1_multi_class_classifier.ipynb
+    * C2W4_Assignment.ipynb
 
 * Transfer learning
   * tf.keras.applications.MobileNetV2()
