@@ -31,6 +31,8 @@
     * C1_W3_Lab_1_improving_accuracy_using_convolutions.ipynb
     * C1W3_Assignment.ipynb
     * C1W4_Assignment.ipynb
+    * C2_W1_Lab_1_cats_vs_dogs.ipynb
+    * C2W1_Assignment.ipynb
   * Functional API models
     * Residual_Networks_2022_09_17_15_50_38.ipynb
       * Functional API allows for skip connections in very deep CNNs
@@ -54,6 +56,8 @@
     * C1_W4_Lab_1_image_generator_with_validation.ipynb
     * C1_W4_Lab_3_compacted_images.ipynb
     * C1W4_Assignment.ipynb
+    * C2_W1_Lab_1_cats_vs_dogs.ipynb
+    * C2W1_Assignment.ipynb
 
 * Transfer learning
   * tf.keras.applications.MobileNetV2()
