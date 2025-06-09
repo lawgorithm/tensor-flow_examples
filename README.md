@@ -24,6 +24,7 @@
 * MLP
   * Sequential API
     * C1_W2_Lab_1_beyond_hello_world.ipynb
+
 * CNN
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
     * Convolution_model_Application.ipynb
@@ -44,8 +45,9 @@
     * Transfer_learning_with_MobileNet_v1.ipynb
   * Conv1D()
     * Trigger_word_detection_v2a.ipynb
-  * Viusualizing convolutions
+  * Visualizing convolutions
     * C1_W3_Lab_1_improving_accuracy_using_convolutions.ipynb
+
 * Transfer learning
   * tf.keras.applications.MobileNetV2()
     * Transfer_learning_with_MobileNet_v1.ipynb
@@ -74,22 +76,28 @@
     * Improvise_a_Jazz_Solo_with_an_LSTM_Network_v4.ipynb
     * Emoji_v3a.ipynb
     * Neural_machine_translation_with_attention_v4a.ipynb
+
 * Attention mechanisms
   * Neural_machine_translation_with_attention_v4a.ipynb
+
 * Transformers
   * C5_W4_A1_Transformer_Subclass_v1.ipynb
   * Transformer_application_Named_Entity_Recognition.ipynb
+
 * customizing model.compile()
   * Learning rate: optimizer=tf.keras.optimizers.Adam(lr=base_learning_rate)
     * Transfer_learning_with_MobileNet_v1.ipynb
+
 * customizing model.fit()
   * Learning rate: optimizer=tf.keras.optimizers.Adam(lr=base_learning_rate)
   * Specify a validation set: validation_data=validation_dataset
   * Specify the number of epochs: epochs=K
   * Save history: history = model.fit(...)
+
 * Masks
   * tf.boolean_mask()
     * Autonomous_driving_application_Car_detection.ipynb
+
 * Loss functions
   * Normal loss functions
     * categorical_crossentropy
@@ -101,9 +109,11 @@
   * Custom loss functions
     * triplet_loss(y_true, y_pred, alpha = 0.2)
       * Face_Recognition.ipynb
+
 * with tf.GradientTape() as tape:
   * Art_Generation_with_Neural_Style_Transfer.ipynb
   * QA_dataset.ipynb
+
 * Callbacks
   * Stop training when loss reaches a target
     * C1_W2_Lab_1_beyond_hello_world.ipynb
