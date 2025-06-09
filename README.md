@@ -1,13 +1,13 @@
 # tensor-flow_examples
 
-* Basic tensorflow
+* __Basic tensorflow__
   * Tensorflow_introduction.ipynb
   * Sequential API vs Functional API
     * Sequential API only allows for sequential models ("linear graphs"), whereas Functional can handle other topologies (skip connections, multiple towers, shared layers etc
     * Functional API: layers are like functions -- you pass the output of a previous layer (or the input layer) as its argument. Input size matters: Because you're explicitly connecting layers, you must ensure that the output shape of a previous layer matches the input shape expected by the next layer
     * Sequential API: first layer needs to have the input shape defined, but after that, keras infers the input shape from the output shape of the prior layer. Main focus is the "type" of layer and defining the output size (number of units).
 
-* tf.Dataset
+* __tf.Dataset__
   * tf.data.Dataset.from_tensor_slices()
     * Tensorflow_introduction.ipynb
     * Image_segmentation_Unet_v2.ipynb
@@ -21,11 +21,11 @@
     * next(iter(train_dataset))
       * Transfer_learning_with_MobileNet_v1.ipynb
      
-* MLP
+* __MLP__
   * Sequential API
     * C1_W2_Lab_1_beyond_hello_world.ipynb
 
-* CNN
+* __CNN__
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
     * Convolution_model_Application.ipynb
     * C1_W3_Lab_1_improving_accuracy_using_convolutions.ipynb
@@ -68,7 +68,7 @@
     * C2_W4_Lab_1_multi_class_classifier.ipynb
     * C2W4_Assignment.ipynb
 
-* Transfer learning
+* __Transfer learning__
   * tf.keras.applications.MobileNetV2()
     * Transfer_learning_with_MobileNet_v1.ipynb
   * Freezing layers/models: model.trainable = False and/or layer.trainable = False
@@ -92,7 +92,17 @@
   * TFDistilBertForQuestionAnswering.from_pretrained()
     * QA_dataset.ipynb
 
-* LSTM
+* __NLP Preprocessing__
+  * Tokenizing with tensorflow.keras.preprocessing.text.Tokenizer()
+    * C3_W1_Lab_1_tokenize_basic.ipynb
+    * C3_W1_Lab_3_sarcasm.ipynb
+    * C3W1_Assignment.ipynb
+  * pad_sequences()
+    * C3_W1_Lab_2_sequences_basic.ipynb
+    * C3_W1_Lab_3_sarcasm.ipynb
+    * C3W1_Assignment.ipynb
+
+* __LSTM__
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
     * TODO
   * Functional API models
