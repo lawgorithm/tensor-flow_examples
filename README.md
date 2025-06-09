@@ -33,6 +33,8 @@
     * C1W4_Assignment.ipynb
     * C2_W1_Lab_1_cats_vs_dogs.ipynb
     * C2W1_Assignment.ipynb
+    * C2_W4_Lab_1_multi_class_classifier.ipynb
+      * Multiclass classification
   * Functional API models
     * Residual_Networks_2022_09_17_15_50_38.ipynb
       * Functional API allows for skip connections in very deep CNNs
