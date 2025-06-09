@@ -27,6 +27,7 @@
 * CNN
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
     * Convolution_model_Application.ipynb
+    * C1_W3_Lab_1_improving_accuracy_using_convolutions.ipynb
   * Functional API models
     * Residual_Networks_2022_09_17_15_50_38.ipynb
       * Functional API allows for skip connections in very deep CNNs
@@ -43,6 +44,8 @@
     * Transfer_learning_with_MobileNet_v1.ipynb
   * Conv1D()
     * Trigger_word_detection_v2a.ipynb
+  * Viusualizing convolutions
+    * C1_W3_Lab_1_improving_accuracy_using_convolutions.ipynb
 * Transfer learning
   * tf.keras.applications.MobileNetV2()
     * Transfer_learning_with_MobileNet_v1.ipynb
