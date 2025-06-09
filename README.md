@@ -110,28 +110,28 @@
     * Emoji_v3a.ipynb
     * Neural_machine_translation_with_attention_v4a.ipynb
 
-* Attention mechanisms
+* __Attention mechanisms__
   * Neural_machine_translation_with_attention_v4a.ipynb
 
-* Transformers
+* __Transformers__
   * C5_W4_A1_Transformer_Subclass_v1.ipynb
   * Transformer_application_Named_Entity_Recognition.ipynb
 
-* customizing model.compile()
+* __customizing model.compile()__
   * Learning rate: optimizer=tf.keras.optimizers.Adam(lr=base_learning_rate)
     * Transfer_learning_with_MobileNet_v1.ipynb
 
-* customizing model.fit()
+* __customizing model.fit()__
   * Learning rate: optimizer=tf.keras.optimizers.Adam(lr=base_learning_rate)
   * Specify a validation set: validation_data=validation_dataset
   * Specify the number of epochs: epochs=K
   * Save history: history = model.fit(...)
 
-* Masks
+* __Masks__
   * tf.boolean_mask()
     * Autonomous_driving_application_Car_detection.ipynb
 
-* Loss functions
+* __Loss functions__
   * Normal loss functions
     * categorical_crossentropy
       * Emoji_v3a.ipynb
@@ -139,15 +139,15 @@
       * Trigger_word_detection_v2a.ipynb
     * sparse_categorical_cross_entropy
       * C1_W2_Lab_1_beyond_hello_world.ipynb
-  * Custom loss functions
+  * __Custom loss functions__
     * triplet_loss(y_true, y_pred, alpha = 0.2)
       * Face_Recognition.ipynb
 
-* with tf.GradientTape() as tape:
+* __with tf.GradientTape() as tape:__
   * Art_Generation_with_Neural_Style_Transfer.ipynb
   * QA_dataset.ipynb
 
-* Callbacks
+* __Callbacks__
   * Stop training when loss reaches a target
     * C1_W2_Lab_1_beyond_hello_world.ipynb
     * C1_W2_Lab_2_callbacks.ipynb
