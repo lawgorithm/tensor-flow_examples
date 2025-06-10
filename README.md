@@ -20,6 +20,9 @@
       * Transfer_learning_with_MobileNet_v1.ipynb
     * next(iter(train_dataset))
       * Transfer_learning_with_MobileNet_v1.ipynb
+  * tf.data.Dataset.range()
+    * A range of values.
+    * C4_W2_Lab_1_features_and_labels.ipynb
      
 * __MLP__
   * Sequential API
@@ -196,6 +199,13 @@
     * C3W4_Assignment.ipynb
     * C3_W4_Lab_1.ipynb
     * C3_W4_Lab_2_irish_lyrics.ipynb
+
+* __Time series__
+  * Generating and plotting synthetic time series data
+    * C4_W1_Lab_1_time_series.ipynb
+  * Naive and simple forecasting models (not really using tensorflow)
+    * C4W1_Assignment.ipynb
+
 
 
 
