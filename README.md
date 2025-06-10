@@ -137,6 +137,7 @@
 
 * __LSTM__
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
+    * tf.keras.layers.Bidirectional(tf.keras.layers.LSTM())
     * C3_W3_Lab_1_single_layer_LSTM.ipynb
     * C3_W3_Lab_2_multiple_layer_LSTM.ipynb
     * C3_W3_Lab_3_Conv1D.ipynb
@@ -182,13 +183,15 @@
     * Autonomous_driving_application_Car_detection.ipynb
 
 * __Loss functions__
-  * Normal loss functions
+  * Ordinary loss functions
     * categorical_crossentropy
       * Emoji_v3a.ipynb
     * binary_crossentropy
       * Trigger_word_detection_v2a.ipynb
     * sparse_categorical_cross_entropy
       * C1_W2_Lab_1_beyond_hello_world.ipynb
+    * tf.keras.losses.Huber()
+      * C4_W3_Lab_2_LSTM.ipynb
   * __Custom loss functions__
     * triplet_loss(y_true, y_pred, alpha = 0.2)
       * Face_Recognition.ipynb
@@ -206,6 +209,8 @@
   * Automatically tune the learning rate hyperparameter
     * tf.keras.callbacks.LearningRateScheduler()
     * C4_W2_Lab_3_deep_NN.ipynb
+    * C4_W3_Lab_1_RNN.ipynb
+    * C4_W3_Lab_2_LSTM.ipynb
 
 * __Lambda layers__
   * tf.keras.layers.Lambda()
@@ -219,6 +224,8 @@
     * C3W4_Assignment.ipynb
   * Reshaping tensors
     * TODO: search for np.new_axis or something like this and probably the word reshape
+    * forecast.squeeze()
+      * Drop unnecessary axis
    
 * __Generative tasks__
   * Next-word prediction with model.predict() on an LSTM model
@@ -237,8 +244,10 @@
   * Deep MLP model using previous k observations as features (Sequential API)
     * C4_W2_Lab_3_deep_NN.ipynb
     * C4W2_Assignment.ipynb
-
-
+  * Deep RNN using previous k observations as features (Sequential API)
+    * C4_W3_Lab_1_RNN.ipynb
+  * Deep LSTM using previous k observations as features (Sequential API)
+    * C4_W3_Lab_2_LSTM.ipynb
 
 
 
