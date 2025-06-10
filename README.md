@@ -329,5 +329,6 @@
     * C2_W1_Lab_1_TFDV_Exercise.ipynb
     * C2W1_Assignment.ipynb
 
-
+* __Hyperparameter Selection__
+  * TODO
 
