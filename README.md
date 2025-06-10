@@ -222,8 +222,9 @@
     * C4W1_Assignment.ipynb
   * Shallow regression model using previous k observations as features (Sequential API)
     * C4_W2_Lab_2_single_layer_NN.ipynb
-  * Deep regression model using previous k observations as features (Sequential API)
+  * Deep MLP model using previous k observations as features (Sequential API)
     * C4_W2_Lab_3_deep_NN.ipynb
+    * C4W2_Assignment.ipynb
 
 
 
