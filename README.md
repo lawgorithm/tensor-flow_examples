@@ -116,6 +116,10 @@
     * C3_W2_Lab_2_sarcasm_classifier.ipynb
     * C3_W2_Lab_3_imdb_subwords.ipynb
     * C3W2_Assignment.ipynb
+  * n-grams
+    * C3W4_Assignment.ipynb
+    * C3_W4_Lab_2_irish_lyrics.ipynb
+
 
 * __LSTM__
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
@@ -125,6 +129,9 @@
     * C3_W3_Lab_4_imdb_reviews_with_GRU_LSTM_Conv1D.ipynb
     * C3_W3_Lab_5_sarcasm_with_bi_LSTM.ipynb
     * C3W3_Assignment.ipynb
+    * C3W4_Assignment.ipynb
+    * C3_W4_Lab_1.ipynb
+    * C3_W4_Lab_2_irish_lyrics.ipynb
   * Functional API models
     * Improvise_a_Jazz_Solo_with_an_LSTM_Network_v4.ipynb
     * Emoji_v3a.ipynb
@@ -176,6 +183,19 @@
     * C1_W2_Lab_2_callbacks.ipynb
     * C1W2_Assignment.ipynb
     * C1W3_Assignment.ipynb
+   
+* __Data manipulation__
+  * One-hot encoding with to_categorical
+    * C3W4_Assignment.ipynb
+  * Reshaping tensors
+    * TODO: search for np.new_axis or something like this and probably the word reshape
+   
+* __Generative tasks__
+  * Next-word prediction with model.predict() on an LSTM model
+    * C3W4_Assignment.ipynb
+    * C3_W4_Lab_1.ipynb
+    * C3_W4_Lab_2_irish_lyrics.ipynb
+
 
 
 
