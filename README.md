@@ -201,6 +201,12 @@
     * tf.keras.callbacks.LearningRateScheduler()
     * C4_W2_Lab_3_deep_NN.ipynb
 
+* __Lambda layers__
+  * tf.keras.layers.Lambda()
+  * Reshape input data from 2D to 3D tensor
+    * C4_W3_Lab_1_RNN.ipynb
+  * Scale tensor entries by a scaling factor (e.g. scale by 100)
+    * C4_W3_Lab_1_RNN.ipynb
    
 * __Data manipulation__
   * One-hot encoding with to_categorical
