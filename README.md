@@ -53,9 +53,12 @@
 * __MLP__
   * Sequential API
     * C1_W2_Lab_1_beyond_hello_world.ipynb
+    * C3_W1_Lab_1_Keras_Tuner.ipynb
     * With embeddings layer:
       * C3_W2_Lab_1_imdb.ipynb
       * C3W2_Assignment.ipynb
+  * Functional API
+    * C3_W2_Lab_1_Manual_Dimensionality.ipynb
      
 * __Image processing__
   * Add bounding boxes to common objects with detect_common_objects() in cvlib. Includes a confidence level.
@@ -211,6 +214,10 @@
   * Specify a validation set: validation_data=validation_dataset
   * Specify the number of epochs: epochs=K
   * Save history: history = model.fit(...)
+ 
+* __Test set evaluation__
+  * model.evaluate(..., return_dict=True)
+    * C3_W1_Lab_1_Keras_Tuner.ipynb
 
 * __masks__
   * tf.boolean_mask()
@@ -253,6 +260,12 @@
     * C4_W4_Lab_1_LSTM.ipynb
     * C4_W4_Lab_3_Sunspots_CNN_RNN_DNN.ipynb
     * C4W4_Assignment.ipynb
+  * Stop early if the loss is not improving over k epochs
+    * tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=k)
+    * C3_W1_Lab_1_Keras_Tuner.ipynb
+  * tfmot.sparsity.keras.UpdatePruningStep()
+    * Pruning is a method for reducing model size by taking parameters that are close to 0 and forcing them to be 0, in order to better enable compressability.
+    * C3_W2_Lab_3_Quantization_and_Pruning.ipynb
 
 * __Lambda layers__
   * tf.keras.layers.Lambda()
@@ -261,6 +274,8 @@
   * Scale tensor entries by a scaling factor (e.g. scale by 100)
     * C4_W3_Lab_1_RNN.ipynb
     * C4_W4_Lab_1_LSTM.ipynb
+  * Apply arbitrary functions to features for feature engineering
+    * C3_W2_Lab_1_Manual_Dimensionality.ipynb
    
 * __Data manipulation__
   * One-hot encoding with to_categorical
@@ -328,7 +343,19 @@
     * e.g. look for anomalies in the eval set (example: unexpected categories that don't appear in the training set). Basically, trying to detect a skew in the validation set relative to the training set.
     * C2_W1_Lab_1_TFDV_Exercise.ipynb
     * C2W1_Assignment.ipynb
+  * 3D Plotting
+    * from mpl_toolkits.mplot3d import Axes3D
+      * C3_W2_Lab_2_Algorithmic_Dimensionality.ipynb
 
 * __Hyperparameter Selection__
-  * TODO
+  * keras_tuner library
+    * Several choices of algorithms for exploring a defined space of hyperparameters (BayesianOptimization, Hyperband, etc)
+    * C3_W1_Lab_1_Keras_Tuner.ipynb
+   
+* __Distributed Training__
+  * C3W3_Colab_Lab1_Distributed_Training.ipynb
+ 
+* __Distillation with Teacher and Student Models__
+  * C3_W3_Lab_2_Knowledge_Distillation.ipynb
+
 
