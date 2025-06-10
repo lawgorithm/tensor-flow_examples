@@ -27,6 +27,7 @@
   * dataset.window(size=5, shift=1)
     * Windowing a dataset
     * C4_W2_Lab_1_features_and_labels.ipynb
+    * C4W4_Assignment.ipynb
   * dataset.shuffle()
     * Shuffling a dataset
     * C4_W2_Lab_1_features_and_labels.ipynb
@@ -67,10 +68,6 @@
       * Face_Recognition.ipynb
   * Data augmentation
     * Transfer_learning_with_MobileNet_v1.ipynb
-  * Conv1D()
-    * Can be used for sequential data, where the convolutions happen over a single dimension (as oppposed to image data where you use 2D convolutions). Often combined with GlobalMaxPooling1D() layers to reduce dimensionality before passing to a Dense layer
-    * Trigger_word_detection_v2a.ipynb
-    * C3_W3_Lab_4_imdb_reviews_with_GRU_LSTM_Conv1D.ipynb
   * Visualizing convolutions
     * C1_W3_Lab_1_improving_accuracy_using_convolutions.ipynb
   * ImageDataGenerator()
@@ -159,7 +156,13 @@
   * RNN models (Sequential API)
     * tf.keras.layers.SimpleRNN()
     * C4_W3_Lab_1_RNN.ipynb
-
+  * Conv1D()
+    * Can be used for sequential data, where the convolutions happen over a single dimension (as oppposed to image data where you use 2D convolutions). Often combined with GlobalMaxPooling1D() layers to reduce dimensionality before passing to a Dense layer. Can also be used in conjunction with, for example, LSTM layers
+    * Trigger_word_detection_v2a.ipynb
+    * C3_W3_Lab_4_imdb_reviews_with_GRU_LSTM_Conv1D.ipynb
+    * C4_W4_Lab_1_LSTM.ipynb
+    * C4_W4_Lab_3_Sunspots_CNN_RNN_DNN.ipynb
+    * C4W4_Assignment.ipynb
 
 * __Attention mechanisms__
   * Neural_machine_translation_with_attention_v4a.ipynb
@@ -171,6 +174,10 @@
 * __customizing model.compile()__
   * Learning rate: optimizer=tf.keras.optimizers.Adam(lr=base_learning_rate)
     * Transfer_learning_with_MobileNet_v1.ipynb
+  * Dynamically decay learning rate as epochs increase
+    * tf.keras.optimizers.schedules.ExponentialDecay()
+    * C4_W4_Lab_3_Sunspots_CNN_RNN_DNN.ipynb
+
 
 * __customizing model.fit()__
   * Learning rate: optimizer=tf.keras.optimizers.Adam(lr=base_learning_rate)
@@ -192,6 +199,8 @@
       * C1_W2_Lab_1_beyond_hello_world.ipynb
     * tf.keras.losses.Huber()
       * C4_W3_Lab_2_LSTM.ipynb
+    * tf.keras.losses.MeanAbsoluteError()
+      * C4W4_Assignment.ipynb
   * __Custom loss functions__
     * triplet_loss(y_true, y_pred, alpha = 0.2)
       * Face_Recognition.ipynb
@@ -202,15 +211,21 @@
 
 * __Callbacks__
   * Stop training when loss reaches a target
+    * tf.keras.callbacks.Callback
     * C1_W2_Lab_1_beyond_hello_world.ipynb
     * C1_W2_Lab_2_callbacks.ipynb
     * C1W2_Assignment.ipynb
     * C1W3_Assignment.ipynb
+    * C4_W4_Lab_1_LSTM.ipynb
   * Automatically tune the learning rate hyperparameter
     * tf.keras.callbacks.LearningRateScheduler()
     * C4_W2_Lab_3_deep_NN.ipynb
     * C4_W3_Lab_1_RNN.ipynb
     * C4_W3_Lab_2_LSTM.ipynb
+    * C4W3_Assignment.ipynb
+    * C4_W4_Lab_1_LSTM.ipynb
+    * C4_W4_Lab_3_Sunspots_CNN_RNN_DNN.ipynb
+    * C4W4_Assignment.ipynb
 
 * __Lambda layers__
   * tf.keras.layers.Lambda()
@@ -218,6 +233,7 @@
     * C4_W3_Lab_1_RNN.ipynb
   * Scale tensor entries by a scaling factor (e.g. scale by 100)
     * C4_W3_Lab_1_RNN.ipynb
+    * C4_W4_Lab_1_LSTM.ipynb
    
 * __Data manipulation__
   * One-hot encoding with to_categorical
@@ -244,10 +260,18 @@
   * Deep MLP model using previous k observations as features (Sequential API)
     * C4_W2_Lab_3_deep_NN.ipynb
     * C4W2_Assignment.ipynb
+    * C4_W4_Lab_2_Sunspots_DNN.ipynb
   * Deep RNN using previous k observations as features (Sequential API)
     * C4_W3_Lab_1_RNN.ipynb
   * Deep LSTM using previous k observations as features (Sequential API)
     * C4_W3_Lab_2_LSTM.ipynb
+    * C4W3_Assignment.ipynb
+    * C4_W4_Lab_1_LSTM.ipynb
+    * C4_W4_Lab_3_Sunspots_CNN_RNN_DNN.ipynb
+    * C4W4_Assignment.ipynb
+  * Faster forecasting inference using tf.data.Dataset
+    * C4W3_Assignment.ipynb
+    * C4W4_Assignment.ipynb
 
 
 
