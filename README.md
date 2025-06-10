@@ -42,6 +42,12 @@
     * With embeddings layer:
       * C3_W2_Lab_1_imdb.ipynb
       * C3W2_Assignment.ipynb
+     
+* __Image processing__
+  * Add bounding boxes to common objects with detect_common_objects() in cvlib. Includes a confidence level.
+    * client.ipynb
+  * Read image as numpy array with cv2.imread(img_filepath)
+    * client.ipynb
 
 * __CNN__
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
