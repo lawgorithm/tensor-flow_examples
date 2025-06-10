@@ -16,30 +16,39 @@
   * dataset.map()
     * Image_segmentation_Unet_v2.ipynb
     * C4_W2_Lab_1_features_and_labels.ipynb
+    * C2_W4_Lab_2_Signals.ipynb
   * Looking at training examples from the dataset
     * for _ in train_dataset.take(1):
       * Transfer_learning_with_MobileNet_v1.ipynb
+      * C2_W4_Lab_2_Signals.ipynb
     * next(iter(train_dataset))
       * Transfer_learning_with_MobileNet_v1.ipynb
   * tf.data.Dataset.range()
     * A range of values.
     * C4_W2_Lab_1_features_and_labels.ipynb
-  * dataset.window(size=5, shift=1)
+  * dataset.window(...)
     * Windowing a dataset
     * C4_W2_Lab_1_features_and_labels.ipynb
     * C4W4_Assignment.ipynb
+    * C2_W4_Lab_2_Signals.ipynb
   * dataset.shuffle()
     * Shuffling a dataset
     * C4_W2_Lab_1_features_and_labels.ipynb
   * dataset.batch().prefetch()
     * Batching and prefetching data
     * C4_W2_Lab_1_features_and_labels.ipynb
+    * C2_W4_Lab_2_Signals.ipynb
+  * dataset.repeat()
+    * C2_W4_Lab_2_Signals.ipynb
 
 * __Other tensorflow data types__
   * tf.data.TFRecordDataset()
     * C2W2_Assignment.ipynb
+    * C2_W4_Lab_2_Signals.ipynb
+    * C2_W4_Lab_3_Images.ipynb
   * tf.train.Example()
     * C2W2_Assignment.ipynb
+    * C2_W4_Lab_3_Images.ipynb
 
 * __MLP__
   * Sequential API
@@ -58,6 +67,8 @@
   * img_to_array, array_to_img, load_img in tensorflow.keras.preprocessing.image
     * For loading images in a particular size and converting back and forth between the image and numpy arrays.
     * C1W2_Ungraded_Lab_Birds_Cats_Dogs.ipynb
+  * display.display(display.Image(data=image_raw))
+    * C2_W4_Lab_3_Images.ipynb
 
 * __CNN__
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
@@ -149,7 +160,6 @@
     * C3W4_Assignment.ipynb
     * C3_W4_Lab_2_irish_lyrics.ipynb
 
-
 * __LSTM__
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
     * tf.keras.layers.Bidirectional(tf.keras.layers.LSTM())
@@ -195,7 +205,6 @@
   * Dynamically decay learning rate as epochs increase
     * tf.keras.optimizers.schedules.ExponentialDecay()
     * C4_W4_Lab_3_Sunspots_CNN_RNN_DNN.ipynb
-
 
 * __customizing model.fit()__
   * Learning rate: optimizer=tf.keras.optimizers.Adam(lr=base_learning_rate)
@@ -256,10 +265,14 @@
 * __Data manipulation__
   * One-hot encoding with to_categorical
     * C3W4_Assignment.ipynb
+    * C2_W4_Lab_3_Images.ipynb
+      * tf.one_hot()
   * Reshaping tensors
     * TODO: search for np.new_axis or something like this and probably the word reshape
     * forecast.squeeze()
       * Drop unnecessary axis
+    * tf.reshape(image, (32, 32, 3))
+      * C2_W4_Lab_3_Images.ipynb
   * tensorflow_transform
     * Library used for feature transformations like scale_to_0_1()
     * C2_W2_Lab_1_Simple_Feature_Engineering.ipynb
