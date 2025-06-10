@@ -197,6 +197,10 @@
     * C1_W2_Lab_2_callbacks.ipynb
     * C1W2_Assignment.ipynb
     * C1W3_Assignment.ipynb
+  * Automatically tune the learning rate hyperparameter
+    * tf.keras.callbacks.LearningRateScheduler()
+    * C4_W2_Lab_3_deep_NN.ipynb
+
    
 * __Data manipulation__
   * One-hot encoding with to_categorical
@@ -216,6 +220,10 @@
     * C4_W1_Lab_1_time_series.ipynb
   * Naive and simple forecasting models (not really using tensorflow)
     * C4W1_Assignment.ipynb
+  * Shallow regression model using previous k observations as features (Sequential API)
+    * C4_W2_Lab_2_single_layer_NN.ipynb
+  * Deep regression model using previous k observations as features (Sequential API)
+    * C4_W2_Lab_3_deep_NN.ipynb
 
 
 
