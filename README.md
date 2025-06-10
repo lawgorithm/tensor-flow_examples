@@ -192,6 +192,7 @@
    
 * __Generative tasks__
   * Next-word prediction with model.predict() on an LSTM model
+    * Seems pretty similar to forecasting the next observation in a time-series
     * C3W4_Assignment.ipynb
     * C3_W4_Lab_1.ipynb
     * C3_W4_Lab_2_irish_lyrics.ipynb
