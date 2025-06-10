@@ -48,6 +48,11 @@
     * client.ipynb
   * Read image as numpy array with cv2.imread(img_filepath)
     * client.ipynb
+  * Display an image in a notebook with display(Image(filename)) from IPython.display
+    * C1W2_Ungraded_Lab_Birds_Cats_Dogs.ipynb
+  * img_to_array, array_to_img, load_img in tensorflow.keras.preprocessing.image
+    * For loading images in a particular size and converting back and forth between the image and numpy arrays.
+    * C1W2_Ungraded_Lab_Birds_Cats_Dogs.ipynb
 
 * __CNN__
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
@@ -60,6 +65,7 @@
     * C2_W4_Lab_1_multi_class_classifier.ipynb
       * Multiclass classification
     * C2W4_Assignment.ipynb
+    * C1W2_Ungraded_Lab_Birds_Cats_Dogs.ipynb
   * Functional API models
     * Residual_Networks_2022_09_17_15_50_38.ipynb
       * Functional API allows for skip connections in very deep CNNs
@@ -89,6 +95,7 @@
       * C2W2_Assignment.ipynb
     * C2_W4_Lab_1_multi_class_classifier.ipynb
     * C2W4_Assignment.ipynb
+    * C1W2_Ungraded_Lab_Birds_Cats_Dogs.ipynb
 
 * __Transfer learning__
   * tf.keras.applications.MobileNetV2()
@@ -279,6 +286,21 @@
     * C4W3_Assignment.ipynb
     * C4W4_Assignment.ipynb
 
+* __Analysis__
+  * Confusion matrices: from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+    * C1W2_Ungraded_Lab_Birds_Cats_Dogs.ipynb
+  * tfdv.generate_statistics_from_dataframe() and tfdv.visualize_statistics()
+    * Plot some automated analysis of your data columns for a pandas df
+    * C2_W1_Lab_1_TFDV_Exercise.ipynb
+    * C2W1_Assignment.ipynb
+  * tfdv.infer_schema() and tfdv.display_schema()
+    * Tool for automatically inferring the schema of your data
+    * C2_W1_Lab_1_TFDV_Exercise.ipynb
+    * C2W1_Assignment.ipynb
+  * tfdv.display_anomalies()
+    * e.g. look for anomalies in the eval set (example: unexpected categories that don't appear in the training set). Basically, trying to detect a skew in the validation set relative to the training set.
+    * C2_W1_Lab_1_TFDV_Exercise.ipynb
+    * C2W1_Assignment.ipynb
 
 
 
