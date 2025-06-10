@@ -34,8 +34,13 @@
   * dataset.batch().prefetch()
     * Batching and prefetching data
     * C4_W2_Lab_1_features_and_labels.ipynb
-      
-     
+
+* __Other tensorflow data types__
+  * tf.data.TFRecordDataset()
+    * C2W2_Assignment.ipynb
+  * tf.train.Example()
+    * C2W2_Assignment.ipynb
+
 * __MLP__
   * Sequential API
     * C1_W2_Lab_1_beyond_hello_world.ipynb
@@ -255,6 +260,15 @@
     * TODO: search for np.new_axis or something like this and probably the word reshape
     * forecast.squeeze()
       * Drop unnecessary axis
+  * tensorflow_transform
+    * Library used for feature transformations like scale_to_0_1()
+    * C2_W2_Lab_1_Simple_Feature_Engineering.ipynb
+  * dataset_metadata.DatasetMetadata(schema_utils.schema_from_feature_spec(...))
+    * Define a schema with a schema protobuf
+    * C2_W2_Lab_1_Simple_Feature_Engineering.ipynb
+  * MessageToDict()
+    * Convert protobuff to python dictionary
+    * C2_W2_Assignment.ipynb
    
 * __Generative tasks__
   * Next-word prediction with model.predict() on an LSTM model
