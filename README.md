@@ -118,10 +118,13 @@
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
     * C3_W3_Lab_1_single_layer_LSTM.ipynb
     * C3_W3_Lab_2_multiple_layer_LSTM.ipynb
+    * C3_W3_Lab_3_Conv1D.ipynb
   * Functional API models
     * Improvise_a_Jazz_Solo_with_an_LSTM_Network_v4.ipynb
     * Emoji_v3a.ipynb
     * Neural_machine_translation_with_attention_v4a.ipynb
+  * GRU models
+    * C3_W3_Lab_3_Conv1D.ipynb
 
 * __Attention mechanisms__
   * Neural_machine_translation_with_attention_v4a.ipynb
