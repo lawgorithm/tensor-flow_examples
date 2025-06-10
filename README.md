@@ -15,6 +15,7 @@
     * Tensorflow_introduction.ipynb
   * dataset.map()
     * Image_segmentation_Unet_v2.ipynb
+    * C4_W2_Lab_1_features_and_labels.ipynb
   * Looking at training examples from the dataset
     * for _ in train_dataset.take(1):
       * Transfer_learning_with_MobileNet_v1.ipynb
@@ -23,6 +24,16 @@
   * tf.data.Dataset.range()
     * A range of values.
     * C4_W2_Lab_1_features_and_labels.ipynb
+  * dataset.window(size=5, shift=1)
+    * Windowing a dataset
+    * C4_W2_Lab_1_features_and_labels.ipynb
+  * dataset.shuffle()
+    * Shuffling a dataset
+    * C4_W2_Lab_1_features_and_labels.ipynb
+  * dataset.batch().prefetch()
+    * Batching and prefetching data
+    * C4_W2_Lab_1_features_and_labels.ipynb
+      
      
 * __MLP__
   * Sequential API
