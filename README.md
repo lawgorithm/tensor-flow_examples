@@ -56,7 +56,7 @@
   * Conv1D()
     * Can be used for sequential data, where the convolutions happen over a single dimension (as oppposed to image data where you use 2D convolutions). Often combined with GlobalMaxPooling1D() layers to reduce dimensionality before passing to a Dense layer
     * Trigger_word_detection_v2a.ipynb
-    * C3_W3_Lab_3_Conv1D.ipynb
+    * C3_W3_Lab_4_imdb_reviews_with_GRU_LSTM_Conv1D.ipynb
   * Visualizing convolutions
     * C1_W3_Lab_1_improving_accuracy_using_convolutions.ipynb
   * ImageDataGenerator()
@@ -90,8 +90,11 @@
     * Operations_on_word_vectors_v2a.ipynb
     * Emoji_v3a.ipynb
     * Embedding_plus_Positional_encoding.ipynb
+    * C3W3_Assignment.ipynb
+      * GloVe word embeddings
   * Defining an Embedding() layer with pre-trained embeddings
     * Emoji_v3a.ipynb
+    * C3W3_Assignment.ipynb
   * Pretrained transformer model and transformer tokenizer, TFDistilBertForTokenClassification.from_pretrained()
     * Transformer_application_Named_Entity_Recognition.ipynb
   * TFDistilBertForQuestionAnswering.from_pretrained()
@@ -119,12 +122,16 @@
     * C3_W3_Lab_1_single_layer_LSTM.ipynb
     * C3_W3_Lab_2_multiple_layer_LSTM.ipynb
     * C3_W3_Lab_3_Conv1D.ipynb
+    * C3_W3_Lab_4_imdb_reviews_with_GRU_LSTM_Conv1D.ipynb
+    * C3_W3_Lab_5_sarcasm_with_bi_LSTM.ipynb
+    * C3W3_Assignment.ipynb
   * Functional API models
     * Improvise_a_Jazz_Solo_with_an_LSTM_Network_v4.ipynb
     * Emoji_v3a.ipynb
     * Neural_machine_translation_with_attention_v4a.ipynb
   * GRU models
-    * C3_W3_Lab_3_Conv1D.ipynb
+    * C3_W3_Lab_4_imdb_reviews_with_GRU_LSTM_Conv1D.ipynb
+    * C3W3_Assignment.ipynb
 
 * __Attention mechanisms__
   * Neural_machine_translation_with_attention_v4a.ipynb
