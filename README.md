@@ -51,6 +51,7 @@
     * C2_W4_Lab_3_Images.ipynb
     * C3_W4_Lab_1_TFMA.ipynb
       * Convert csv files to TFRecord files without using a TFX pipeline
+    * C4_W2_Lab_4_Apache_Beam_and_Tensorflow.ipynb
   * tf.train.Example()
     * C2W2_Assignment.ipynb
     * C2_W4_Lab_3_Images.ipynb
@@ -64,6 +65,7 @@
       * C3W2_Assignment.ipynb
   * Functional API
     * C3_W2_Lab_1_Manual_Dimensionality.ipynb
+    * C4_W3_Lab_2_TFX_Custom_Components.ipynb
      
 * __Image processing__
   * Add bounding boxes to common objects with detect_common_objects() in cvlib. Includes a confidence level.
@@ -365,6 +367,11 @@
    
 * __Distributed Training__
   * C3W3_Colab_Lab1_Distributed_Training.ipynb
+ 
+* __Saving and loading models__
+  * tf.keras.models.save_model()
+    * C4_W1_Lab_2_TF_Serving.ipynb
+
  
 * __Distillation with Teacher and Student Models__
   * C3_W3_Lab_2_Knowledge_Distillation.ipynb
