@@ -46,6 +46,8 @@
     * C2W2_Assignment.ipynb
     * C2_W4_Lab_2_Signals.ipynb
     * C2_W4_Lab_3_Images.ipynb
+    * C3_W4_Lab_1_TFMA.ipynb
+      * Convert csv files to TFRecord files without using a TFX pipeline
   * tf.train.Example()
     * C2W2_Assignment.ipynb
     * C2_W4_Lab_3_Images.ipynb
