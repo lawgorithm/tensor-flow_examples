@@ -40,6 +40,9 @@
     * C2_W4_Lab_2_Signals.ipynb
   * dataset.repeat()
     * C2_W4_Lab_2_Signals.ipynb
+  * Convert N rows of a dataset object to a pandas dataframe
+    * df = tfds.as_dataframe(dataset.take(N), data_info)
+    * C3_W4_Lab_3_Fairness_Indicators.ipynb
 
 * __Other tensorflow data types__
   * tf.data.TFRecordDataset()
@@ -74,6 +77,9 @@
     * C1W2_Ungraded_Lab_Birds_Cats_Dogs.ipynb
   * display.display(display.Image(data=image_raw))
     * C2_W4_Lab_3_Images.ipynb
+  * tf.image.resize(image, [IMAGE_SIZE, IMAGE_SIZE])
+    * Resize an image
+    * C3_W4_Lab_3_Fairness_Indicators.ipynb
 
 * __CNN__
   * Sequential API models with tensorflow.keras.layers pre-implemented layers
@@ -92,6 +98,7 @@
       * Functional API allows for skip connections in very deep CNNs
     * Image_segmentation_Unet_v2.ipynb
       * More skip connections in a "U-shaped" pattern. U-Net is a very popular choice for  semantic segmentation tasks. U-Net has skip connections to retain information that gets lost during encoding. Skip connections send information to every upsampling layer in the decoder from the corresponding downsampling layer in the encoder.
+    * C3_W5_Lab_1_Shap_Values.ipynb
   * Defining datasets
     * tf.keras.preprocessing.image_dataset_from_directory()
       * Generates a tf.data.Dataset from image files organized in a directory structure
@@ -348,6 +355,8 @@
   * 3D Plotting
     * from mpl_toolkits.mplot3d import Axes3D
       * C3_W2_Lab_2_Algorithmic_Dimensionality.ipynb
+  * Shapley values
+    * C3_W5_Lab_1_Shap_Values.ipynb
 
 * __Hyperparameter Selection__
   * keras_tuner library
